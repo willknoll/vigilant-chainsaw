@@ -21,3 +21,14 @@ jobs:
       # This step prints an output (time) from the previous step's action.
       - name: Echo the greeting's time
         run: echo 'The time was ${{ steps.hello.outputs.time }}.'
+      - name: markdownlint-cli
+        uses: nosborn/github-action-markdown-cli@v1.1.1
+        with:
+          # configuration file (JSON or YAML)
+          config_file: # optional
+          # files, directories, or globs
+          files: **/*.md
+          # files to ignore/exclude
+          ignore_files: # optional
+          # custom rule files
+          rules: # optional
