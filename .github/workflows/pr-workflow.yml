@@ -27,4 +27,4 @@ jobs:
           files: .
           config_file: "workflows/md-lint/config-relaxed.json"
           ignore_files: "examples/ignore/*"
-          #rules: ".github\workflows\md-linter\rules.js"
+          rules: "workflows/md-lint/rules.js"
