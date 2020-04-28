@@ -27,6 +27,6 @@ jobs:
         uses: nosborn/github-action-markdown-cli@v1.1.1  
         with:
           files: .
-          config_file: "./workflows/md-lint/config-relaxed.json"
+          config_file: "workflows/md-lint/config-relaxed.json"
           ignore_files: "examples/ignore/*"
-          rules: "./workflows/md-lint/rules.js"
+          rules: "workflows/md-lint/rules.js"
