@@ -1,6 +1,5 @@
 {
   "comment": "Relaxed rules",
-
   "default": true,
   "whitespace": false,
   "line_length": false,
