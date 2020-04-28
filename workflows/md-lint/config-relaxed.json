@@ -1,19 +1,9 @@
 {
   "comment": "Relaxed rules",
   "default": true,
-  "whitespace": false,
-  "line_length": false,
-  "ul-start-left": false,
-  "ul-indent": false,
-  "no-bare-urls": false,
-  "fenced-code-language": false,
   "first-line-h1": false,
   "no-duplicate-heading": false,
   "single-title": false,
-  "no-trailing-punctuation": false,
-  "blanks-around-headings": false,
-  "blanks-around-lists": false,
-  "single-trailing-newline": false,
-  "heading-increment": false,
-  "no-emphasis-as-heading": false
+  "no-trailing-punctuation": false
+  "line_length": false
 }
