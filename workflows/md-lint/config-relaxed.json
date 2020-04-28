@@ -4,6 +4,6 @@
   "first-line-h1": false,
   "no-duplicate-heading": false,
   "single-title": false,
-  "no-trailing-punctuation": false
+  "no-trailing-punctuation": false,
   "line_length": false
 }
