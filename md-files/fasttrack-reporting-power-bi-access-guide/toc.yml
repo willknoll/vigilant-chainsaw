@@ -1,0 +1,14 @@
+- name: FastTrack Reporting Power BI Access Guide
+  items:
+  - name: Overview  
+    href: index.md
+  - name: Raise Request in MyAccess
+    href: raise-request-in-myaccess.md
+  - name: Manage My Requests
+    href: manage-my-requests.md
+  - name: Approve Requests
+    href: approve-requests.md
+  - name: Extend MyAccess Project Membership
+    href: extend-myaccess-project-membership.md
+  - name: Access FastTrack Power BI Reports
+    href: access-fasttrack-power-bi-reports.md
