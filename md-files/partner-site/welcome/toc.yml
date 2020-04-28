@@ -1,0 +1,34 @@
+- name: Welcome
+  href: welcome/index.md
+  items:
+  - name: Onboarding
+    href: welcome/onboarding.md
+- name: FastTrack Playbook
+  href: partner-playbook/index.md
+- name: Operations Guide
+  href: operations-guide/index.md
+- name: Training and Resources
+  href: training-and-resources/index.md
+  items:
+    - name: Building a Successful Practice
+      href: training-and-resources/partner-transformation.md
+    - name: Program Resources
+      href: training-and-resources/program-resources.md
+    - name: Product Training
+      href: training-and-resources/product-training.md
+- name: News and Events
+  href: news-and-events/index.md
+  items:
+    - name: News and Events
+      href: news-and-events/news-and-events.md
+- name: Partner Success Library
+  href: ../partner-success-library/index.md
+- name: FAQs
+  href: faqs/index.md
+  items:
+    - name: Onboarding
+      href: faqs/onboarding.md
+    - name: Build a successful practice
+      href: faqs/build-a-successful-practice.md
+    - name: FastTrack
+      href: faqs/fasttrack.md

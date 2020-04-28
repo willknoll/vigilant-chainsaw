@@ -1,0 +1,61 @@
+- name: Role Guides
+  items:
+  - name: Overview
+    href: index.md
+  - name: FastTrack Manager (FM)
+    href: fasttrack-manager.md
+    items:
+    - name: FTA Mentoring and Coaching
+      href: fta-mentoring.md
+    - name: FTA Enterprise Situational Awareness
+      href: fta-situational-awareness.md
+    - name: Situational Awareness and the Soft Skills & Negotiation Skills
+      href: fta-soft-skills.md
+    - name: Escalation Management
+      href: fta-escalation-mgmt.md
+  - name: FastTrack Engineer (FE)
+    href: fasttrack-engineer.md  
+  - name: FastTrack Engineer Subject Matter Expert (SME)
+    href: fasttrack-engineer-subject-matter-expert.md
+  - name: FastTrack Team Manager (TM)
+    href: fasttrack-team-manager.md
+  - name: Alignment FastTrack Architect (Alignment FTA)
+    href: alignment-fasttrack-architect.md       
+  - name: FastTrack Architect (FTA)
+    href: fasttrack-architect.md
+    items:
+    - name: FTA Mentoring and Coaching
+      href: fta-mentoring.md
+    - name: FTA Enterprise Situational Awareness
+      href: fta-situational-awareness.md
+    - name: Situational Awareness and the Soft Skills & Negotiation Skills
+      href: fta-soft-skills.md
+    - name: FastTrack Area Liaison
+      href: fta-area-liaison.md
+    - name: Escalation Management
+      href: fta-escalation-mgmt.md     
+  - name: Get Modern FastTrack Architect (GMFTA)
+    href: get-modern-fasttrack-architect.md
+  - name: RFA Manager
+    href: rfa-manager.md   
+  - name: Targeting Manager
+    href: targeting-manager.md
+  - name: Migration Velocity Manager (MVM)
+    href: migration-velocity-manager.md
+  - name: FastTrack Partner Manager (FPM)
+    href: fasttrack-partner-manager.md
+  - name: SfBO to Teams Transition
+    href: ../sfbo-to-teams-transition-roles-and-responsibilities/sfbo-to-teams-transition.md#sfbo-to-teams-transition
+  - name: Additional Resources
+    href: additional-resources.md
+    items:
+    - name: FTA Mentoring and Coaching
+      href: fta-mentoring.md
+    - name: FTA Enterprise Situational Awareness
+      href: fta-situational-awareness.md
+    - name: Situational Awareness and the Soft Skills & Negotiation Skills
+      href: fta-soft-skills.md
+    - name: FastTrack Area Liaison
+      href: fta-area-liaison.md
+    - name: Escalation Management
+      href: fta-escalation-mgmt.md
