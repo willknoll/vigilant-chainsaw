@@ -19,5 +19,6 @@
   "ol-prefix": false,
   "no-multiple-blanks": false,
   "list-marker-space": false,
-  "any-blockquote": false
+  "any-blockquote": false,
+  "no-blanks-blockquote": false
 }
