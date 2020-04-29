@@ -11,7 +11,7 @@
   "blanks-around-lists": false,
   "single-trailing-newline": false,
   "heading-increment": false,
-  "no-emphasis-as-heading": false
+  "no-emphasis-as-heading": false,
   "ul-start-left": false,
   "ul-indent": false,
   "no-trailing-spaces": false,
