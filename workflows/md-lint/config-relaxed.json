@@ -27,7 +27,7 @@
   "no-blanks-blockquote": true,
   "no-empty-links": true,
   "no-hard-tabs": true,
-  "no-inline-html": true
+  "no-inline-html": true,
   "no-missing-space-atx": true,
   "no-multiple-blanks": true,
   "no-multiple-space-blockquote": true,

@@ -11,6 +11,7 @@ content can be merged, aside from the following:
 * When intended styling conflicts with a rule, exceptions will be made on a case by case basis.
 
 ## Rules
+
 The following is a list of all rules which are checked by Markdownlint. Items that are
 struck through have been disabled and will not cause falures.
 
