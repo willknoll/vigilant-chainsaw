@@ -3,6 +3,7 @@
   "default": true,
   "first-line-h1": false,
   "no-duplicate-heading": false,
+  "no-duplicate-header": false,
   "single-title": false,
   "no-trailing-punctuation": false,
   "line_length": false,
