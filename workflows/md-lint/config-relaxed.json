@@ -17,7 +17,7 @@
   "single-title": false,
   "single-trailing-newline": false,
   "ul-start-left": false,
-  "ul-indent": false,
+  "ul-indent": true,
   "code-block-style": true,
   "heading-start-left": true,
   "header-start-left": true,
