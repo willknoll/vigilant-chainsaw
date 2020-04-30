@@ -27,9 +27,7 @@
   "no-blanks-blockquote": true,
   "no-empty-links": true,
   "no-hard-tabs": true,
-  "no-inline-html": {
-    "allowed_elements": [ "br" ]
-  }
+  "no-inline-html": { "allowed_elements": [ "br" ] },
   "no-missing-space-atx": true,
   "no-multiple-blanks": true,
   "no-multiple-space-blockquote": true,
