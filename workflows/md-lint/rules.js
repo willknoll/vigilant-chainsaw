@@ -9,6 +9,5 @@ const noSafeLinks = require("./no-safelinks");
 module.exports.noSafeLinks = noSafeLinks;
 
 module.exports.all = [
-  anyBlockquote,
-  noSafeLinks
+  anyBlockquote
 ];
