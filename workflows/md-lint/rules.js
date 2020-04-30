@@ -5,9 +5,9 @@
 module.exports = {
   "names": [ "no-safelinks" ],
   "description": "No SafeLinks allowed for URLs",
-  "tags": [ "links" ],
   "information": new URL("https://example.com/rules/no-safelinks"),
-  "function": function safelinkRule(params, onError) {
+  "tags": [ "links" ],
+  "function": function rule(params, onError) {
 	params.tokens.filter(function filterToken(token) {
       return token.type === "link_open";
     }).forEach(function forToken(linktoken) {
