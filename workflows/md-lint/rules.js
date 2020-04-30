@@ -9,7 +9,7 @@ module.exports = {
   "tags": [ "links" ],
   "function": function rule(params, onError) {
 	params.tokens.filter(function filterToken(token) {
-      return token.type === "link_open";
+      return token.type === "link_close";
     }).forEach(function forToken(linktoken) {
 		var href = token.attrs["href"];
 		if (/safelinks/i.test(href)) {
