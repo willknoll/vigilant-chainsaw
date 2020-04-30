@@ -12,12 +12,7 @@ module.exports = {
       return token.type === "link_open";
     }).forEach(function forToken(linktoken) {
 		var href = token.attrs["href"];
-		if (/safelinks/i.test(href)) {
-			onError({
-				"lineNumber": linktoken.lineNumber,
-				"detail": "Link uses SafeLink"",
-				"context": linktoken.line.substr(0, 7)
-			});
+
 		}
 	});
   }
