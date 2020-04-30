@@ -22,6 +22,10 @@ This changelog covers multiple projects with each change tagged with a correspod
 
 [Some non safelink](https://mysite.com)
 
+<br />
+
+<br>
+
 > ## March 2020
 >
 > ### Added
