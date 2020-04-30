@@ -2,13 +2,13 @@
 
 "use strict";
 
-const anyBlockquote = require(".\any-blockquote");
+const anyBlockquote = require("./any-blockquote");
 module.exports.anyBlockquote = anyBlockquote;
 
-const noSafeLinks = require(".\no-safelinks");
+const noSafeLinks = require("./no-safelinks");
 module.exports.noSafeLinks = noSafeLinks;
 
-const simpleRule = require(".\simple-rule");
+const simpleRule = require("./simple-rule");
 module.exports.simpleRule = simpleRule;
 
 module.exports.all = [
