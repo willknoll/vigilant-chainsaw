@@ -72,7 +72,7 @@ module.exports = {
 					console.log('  Attributes:')
 					//for (let attribute of token.attrs)
 					//{
-						console.log('    ' + child.attrGet("href");
+						console.log('    ' + child.attrGet("href"));
 					//}
 				}
 			}
