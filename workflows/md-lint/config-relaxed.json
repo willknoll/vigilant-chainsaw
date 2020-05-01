@@ -31,6 +31,7 @@
   "no-missing-space-atx": true,
   "no-multiple-blanks": true,
   "no-multiple-space-blockquote": true,
+  "no-safelinks": true,
   "no-space-in-links": true,
   "no-space-in-emphasis": true,
   "ul-style": true
