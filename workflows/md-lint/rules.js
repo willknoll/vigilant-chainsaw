@@ -72,7 +72,7 @@ module.exports = {
                     let range = [index + 1, href.length];
                     onError({
                         lineNumber: alink.lineNumber,
-                        context: `![${alink}](${href})`,
+                        context: `(${href})`,
                         range
                     })
 				}
