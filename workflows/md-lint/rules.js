@@ -55,8 +55,8 @@ module.exports = {
 //const testValidRelative = /^(?:\.\.?\/)/;
 const testSafeLink = new RegExp("safelinks\.protection");
 module.exports = {
-    names: ["MD100", "relative-image-urls"],
-    description: "Relative URLs to images must start with ./ or ../",
+    names: ["MD100", "any-safelink-url"],
+    description: "URLs that contain SafeLinks must be converted to the actual endpoint link",
     tags: ["links"],
     "function": (params, onError) => {
         params.tokens.filter(t => t.type === "inline").forEach(token => {
@@ -72,8 +72,7 @@ module.exports = {
                     let range = [index + 1, href.length];
                     onError({
                         lineNumber: alink.lineNumber,
-                        details: `In the link for ${alink.content}`,
-                        context: `![${alink}](${alink.content})`,
+                        context: `![${alink}](${href})`,
                         range
                     })
 				}
