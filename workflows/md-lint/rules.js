@@ -11,8 +11,8 @@ module.exports.noSafeLinks = noSafeLinks;
 const simpleRule = require("./simple-rule");
 module.exports.simpleRule = simpleRule;
 
-module.exports.all = [
+//module.exports.all = [
 //  anyBlockquote,
 //  noSafeLinks,
 //  simpleRule
-];
+//];
