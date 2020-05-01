@@ -8,6 +8,7 @@ module.exports = {
   "tags": [ "sample" ],
   "function": function rule(params, onError) {
     params.tokens.forEach((token) => {
+		console.log(token.type);
       if (token.type === "hr") {
         onError({
           "lineNumber": token.lineNumber,
