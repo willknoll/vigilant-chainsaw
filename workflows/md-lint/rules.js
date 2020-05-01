@@ -53,7 +53,7 @@ module.exports = {
 
 //const testExternal = /^(?:https?\:)?\/\//;
 //const testValidRelative = /^(?:\.\.?\/)/;
-const testSafeLink = new RegExp("/safelinks\.protection/i");
+const testSafeLink = new RegExp("safelinks\.protection");
 module.exports = {
     names: ["MD100", "relative-image-urls"],
     description: "Relative URLs to images must start with ./ or ../",
@@ -74,7 +74,7 @@ module.exports = {
 					//{
 						let href = child.attrGet("href");
 						console.log('    ' + href);
-						console.log('    ' + testSafeLink.test(href));
+						console.log('    ' + testSafeLink.test(href.toLowerCase()));
 					//}
 				}
 			}
