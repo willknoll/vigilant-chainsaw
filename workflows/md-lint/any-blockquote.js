@@ -5,7 +5,7 @@
 const { URL } = require("url");
 
 module.exports = {
-  "names": [ "any-blockquote" ],
+  "names": [ "any-other-blockquote" ],
   "description": "Rule that reports an error for any blockquote",
   "information": new URL("https://example.com/rules/any-blockquote"),
   "tags": [ "test" ],
