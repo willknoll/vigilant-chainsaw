@@ -70,10 +70,10 @@ module.exports = {
 					console.log('  Markup :' + child.markup);
 					console.log('  Tag :' + child.tag);
 					console.log('  Attributes:')
-					for (let attribute of token.attrs)
-					{
-						console.log('    ' + attribute);
-					}
+					//for (let attribute of token.attrs)
+					//{
+						console.log('    ' + child.attrGet("href");
+					//}
 				}
 			}
             let links = token.children.filter(t => t.type === "a");
