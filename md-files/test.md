@@ -24,7 +24,11 @@ This changelog covers multiple projects with each change tagged with a correspod
 
 <br />
 
+---
+
 <br>
+
+<hr>
 
 > ## March 2020
 >

@@ -74,7 +74,7 @@ module.exports = {
                         lineNumber: href.lineNumber,
                         details: `In the link for ${alink.content}`,
                         context: `![${alink}](${alink.content})`,
-                        range,
+                        range
                     })
 				}
 				else
@@ -95,26 +95,9 @@ module.exports = {
 						//console.log('    ' + href);
 						//console.log('    ' + testSafeLink.test(href.toLowerCase()));
 					//}
-				}
 			}
-            let links = token.children.filter(t => t.type === "a");
-            for (let img of links) {
-                let src = img.attrGet("href");
-                if (src) {
-                    let isExternal = testSafeLink.test(src);
-                    if (isExternal) {
-                        let index = img.line.indexOf(src);
-                        let range = [index + 1, src.length];
-                        onError({
-                            lineNumber: img.lineNumber,
-                            details: `In the image for ${img.content}`,
-                            context: `![${src}](${img.content})`,
-                            range,
-                        })
-                    }
-                }
-            }
         });
+	}
 };
 
 // @ts-check
