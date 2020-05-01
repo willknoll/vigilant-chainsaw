@@ -60,21 +60,39 @@ module.exports = {
     tags: ["links"],
     "function": (params, onError) => {
         params.tokens.filter(t => t.type === "inline").forEach(token => {
-			console.log('New token:' + token.type);
-			for (let child of token.children) {
-				if (child.type === "link_open")
+			let links = token.children.filter(t => t.type === "link_open");
+			console.log('New link found:');
+			for (let alink of links) {
+				let href = child.attrGet('href');
+				console.log('  ' + href);
+				if (testSafeLink.test(href.toLowerCase()))
 				{
-					console.log('New link child: ' + child.type);
+					let index = alink.line.indexOf(href);
+                    let range = [index + 1, href.length];
+                    onError({
+                        lineNumber: href.lineNumber,
+                        details: `In the link for ${alink.content}`,
+                        context: `![${alink}](${alink.content})`,
+                        range,
+                    })
+				}
+				else
+				{
+					console.log('  Not a SafeLink')
+				}
+				//if (child.type === "link_open")
+				//{
+					//console.log('New link child: ' + child.type);
 					//console.log('  Content: ' + child.content);
 					//console.log('  Info: ' + child.info);
 					//console.log('  Markup :' + child.markup);
-					console.log('  Tag :' + child.tag);
-					console.log('  Attributes:')
+					//console.log('  Tag :' + child.tag);
+					//console.log('  Attributes:')
 					//for (let attribute of token.attrs)
 					//{
-						let href = child.attrGet("href");
-						console.log('    ' + href);
-						console.log('    ' + testSafeLink.test(href.toLowerCase()));
+						//let href = child.attrGet("href");
+						//console.log('    ' + href);
+						//console.log('    ' + testSafeLink.test(href.toLowerCase()));
 					//}
 				}
 			}
