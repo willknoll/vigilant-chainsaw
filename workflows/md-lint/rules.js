@@ -2,7 +2,7 @@
 
 //"use strict";
 
-module.exports = {
+/* module.exports = {
   "names": [ "sample-rule" ],
   "description": "Sample rule",
   "tags": [ "sample" ],
@@ -17,7 +17,7 @@ module.exports = {
       }
     });
   }
-};
+}; */
 
 /* const testSafeLink = "/safelinks\.protection/i";
 
@@ -53,13 +53,17 @@ module.exports = {
 
 //const testExternal = /^(?:https?\:)?\/\//;
 //const testValidRelative = /^(?:\.\.?\/)/;
-/* const testSafeLink = "/safelinks\.protection/i";
+const testSafeLink = "/safelinks\.protection/i";
 module.exports = {
     names: ["MD100", "relative-image-urls"],
     description: "Relative URLs to images must start with ./ or ../",
     tags: ["links"],
     "function": (params, onError) => {
         params.tokens.filter(t => t.type === "inline").forEach(token => {
+			console.log('New token:' + token.type);
+			for (let child of token.children) {
+				console.log('New child:' + child.type);
+			}
             let links = token.children.filter(t => t.type === "a");
             for (let img of links) {
                 let src = img.attrGet("href");
@@ -79,7 +83,7 @@ module.exports = {
             }
         });
     }
-}; */
+};
 
 // @ts-check
 
