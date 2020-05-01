@@ -65,14 +65,16 @@ module.exports = {
 				if (child.type === "link_open")
 				{
 					console.log('New link child: ' + child.type);
-					console.log('  Content: ' + child.content);
-					console.log('  Info: ' + child.info);
-					console.log('  Markup :' + child.markup);
+					//console.log('  Content: ' + child.content);
+					//console.log('  Info: ' + child.info);
+					//console.log('  Markup :' + child.markup);
 					console.log('  Tag :' + child.tag);
 					console.log('  Attributes:')
 					//for (let attribute of token.attrs)
 					//{
-						console.log('    ' + child.attrGet("href"));
+						let href = child.attrGet("href");
+						console.log('    ' + href);
+						console.log('    ' + testSafeLink.test(href));
 					//}
 				}
 			}
