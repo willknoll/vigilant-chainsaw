@@ -61,9 +61,9 @@ module.exports = {
     "function": (params, onError) => {
         params.tokens.filter(t => t.type === "inline").forEach(token => {
 			let links = token.children.filter(t => t.type === "link_open");
-			console.log('New link found:');
 			for (let alink of links)
 			{
+				console.log('New link found:');
 				let href = alink.attrGet('href');
 				console.log('  ' + href);
 				if (testSafeLink.test(href.toLowerCase()))
@@ -71,7 +71,7 @@ module.exports = {
 					let index = alink.line.indexOf(href);
                     let range = [index + 1, href.length];
                     onError({
-                        lineNumber: href.lineNumber,
+                        lineNumber: alink.lineNumber,
                         details: `In the link for ${alink.content}`,
                         context: `![${alink}](${alink.content})`,
                         range
