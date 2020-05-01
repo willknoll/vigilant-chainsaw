@@ -43,7 +43,7 @@ module.exports = {
     tags: ["links"],
     "function": (params, onError) => {
         params.tokens.filter(t => t.type === "inline").forEach(token => {
-            let links = token.children.filter(t => t.type === "link");
+            let links = token.children.filter(t => t.type === "a");
             for (let img of links) {
                 let src = img.attrGet("href");
                 if (src) {
