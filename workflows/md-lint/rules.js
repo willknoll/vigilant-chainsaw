@@ -14,5 +14,5 @@ module.exports.simpleRule = simpleRule;
 module.exports.all = [
 //  anyBlockquote,
 //  noSafeLinks,
-  simpleRule
+//  simpleRule
 ];
