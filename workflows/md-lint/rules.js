@@ -17,7 +17,7 @@ module.exports = {
         if (href)
         {
           let isSafeLink = testSafeLink.test(href)
-          
+          skdfhdskjh
           //var href = 
           //if (/safelinks/i.test(href))
 		  if (isSafeLink)
