@@ -34,22 +34,21 @@ module.exports = {
   }
 }; */
 
-const testExternal = /^(?:https?\:)?\/\//;
-const testValidRelative = /^(?:\.\.?\/)/;
-
+//const testExternal = /^(?:https?\:)?\/\//;
+//const testValidRelative = /^(?:\.\.?\/)/;
+const testSafeLink = "/safelinks\.protection/i";
 module.exports = {
     names: ["MD100", "relative-image-urls"],
     description: "Relative URLs to images must start with ./ or ../",
     tags: ["links"],
     "function": (params, onError) => {
         params.tokens.filter(t => t.type === "inline").forEach(token => {
-            let images = token.children.filter(t => t.type === "image");
-            for (let img of images) {
-                let src = img.attrGet("src");
+            let links = token.children.filter(t => t.type === "link");
+            for (let img of links) {
+                let src = img.attrGet("href");
                 if (src) {
-                    let isExternal = testExternal.test(src);
-                    let isValidRelative = testValidRelative.test(src);
-                    if (!isExternal && !isValidRelative) {
+                    let isExternal = testSafeLink.test(src);
+                    if (isExternal) {
                         let index = img.line.indexOf(src);
                         let range = [index + 1, src.length];
                         onError({
