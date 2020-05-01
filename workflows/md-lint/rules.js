@@ -62,7 +62,8 @@ module.exports = {
         params.tokens.filter(t => t.type === "inline").forEach(token => {
 			let links = token.children.filter(t => t.type === "link_open");
 			console.log('New link found:');
-			for (let alink of links) {
+			for (let alink of links)
+			{
 				let href = child.attrGet('href');
 				console.log('  ' + href);
 				if (testSafeLink.test(href.toLowerCase()))
@@ -114,7 +115,6 @@ module.exports = {
                 }
             }
         });
-    }
 };
 
 // @ts-check
