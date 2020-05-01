@@ -13,7 +13,7 @@ module.exports = {
     params.tokens.filter(function filterToken(token) {
       return token.type === "link_close";
     }).forEach(function forToken(linktoken) {
-        let href = token.attrGet["href"];
+        let href = linktoken.attrGet["href"];
         if (href)
         {
           let isSafeLink = testSafeLink.test(href)
