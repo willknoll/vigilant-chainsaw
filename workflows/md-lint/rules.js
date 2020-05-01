@@ -11,7 +11,7 @@ module.exports = {
 	params.tokens.filter(function filterToken(token) {
       return token.type === "link_close";
     }).forEach(function forToken(linktoken) {
-		var href = token.attrs["href"];
+		var href = token.attrGet["href"];
 		if (/safelinks/i.test(href)) {
 			onError({
 				"lineNumber": linktoken.lineNumber,
