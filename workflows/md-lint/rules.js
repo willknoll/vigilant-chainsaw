@@ -1,6 +1,8 @@
 // @ts-check
 
-"use strict";
+//"use strict";
+
+const testSafeLink = "/safelinks\.protection/i";
 
 module.exports = {
   "names": [ "no-safelinks" ],
@@ -8,18 +10,27 @@ module.exports = {
   "information": new URL("https://example.com/rules/no-safelinks"),
   "tags": [ "links" ],
   "function": function rule(params, onError) {
-	params.tokens.filter(function filterToken(token) {
+    params.tokens.filter(function filterToken(token) {
       return token.type === "link_close";
     }).forEach(function forToken(linktoken) {
-		var href = token.attrGet["href"];
-		if (/safelinks/i.test(href)) {
-			onError({
-				"lineNumber": linktoken.lineNumber,
-				"detail": "Link uses SafeLink",
-				"context": linktoken.line.substr(0, 7)
-			});
-		}
-	});
+        let href = token.attrGet["href"];
+        if (href)
+        {
+          let isSafeLink = testSafeLink.test(href)
+          
+          //var href = 
+          //if (/safelinks/i.test(href))
+		  if (isSafeLink)
+          {
+            onError({
+              "lineNumber": linktoken.lineNumber,
+              "detail": "Link uses SafeLink",
+              "context": linktoken.line.substr(0, 7)
+            });
+           //}
+          }
+	    }
+    });
   }
 };
 
