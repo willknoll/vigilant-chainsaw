@@ -64,7 +64,7 @@ module.exports = {
 			console.log('New link found:');
 			for (let alink of links)
 			{
-				let href = child.attrGet('href');
+				let href = alink.attrGet('href');
 				console.log('  ' + href);
 				if (testSafeLink.test(href.toLowerCase()))
 				{
