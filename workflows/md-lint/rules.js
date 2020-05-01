@@ -2,6 +2,22 @@
 
 //"use strict";
 
+module.exports = {
+  "names": [ "sample-rule" ],
+  "description": "Sample rule",
+  "tags": [ "sample" ],
+  "function": function rule(params, onError) {
+    params.tokens.forEach((token) => {
+      if (token.type === "hr") {
+        onError({
+          "lineNumber": token.lineNumber,
+          "detail": "Sample error for hr"
+        });
+      }
+    });
+  }
+};
+
 /* const testSafeLink = "/safelinks\.protection/i";
 
 module.exports = {
@@ -36,7 +52,7 @@ module.exports = {
 
 //const testExternal = /^(?:https?\:)?\/\//;
 //const testValidRelative = /^(?:\.\.?\/)/;
-const testSafeLink = "/safelinks\.protection/i";
+/* const testSafeLink = "/safelinks\.protection/i";
 module.exports = {
     names: ["MD100", "relative-image-urls"],
     description: "Relative URLs to images must start with ./ or ../",
@@ -62,7 +78,7 @@ module.exports = {
             }
         });
     }
-};
+}; */
 
 // @ts-check
 
