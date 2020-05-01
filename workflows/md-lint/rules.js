@@ -62,7 +62,19 @@ module.exports = {
         params.tokens.filter(t => t.type === "inline").forEach(token => {
 			console.log('New token:' + token.type);
 			for (let child of token.children) {
-				console.log('New child:' + child.type);
+				if (child.type === "link_open")
+				{
+					console.log('New link child: ' + child.type);
+					console.log('  Content: ' + child.content);
+					console.log('  Info: ' + child.info);
+					console.log('  Markup :' + child.markup);
+					console.log('  Tag :' + child.tag);
+					console.log('  Attributes:')
+					for (let attribute of token.attrs)
+					{
+						console.log('    ' + attribute);
+					}
+				}
 			}
             let links = token.children.filter(t => t.type === "a");
             for (let img of links) {
