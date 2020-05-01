@@ -2,8 +2,6 @@
 // https://github.com/DavidAnson/markdownlint/blob/master/doc/CustomRules.md
 // @ts-check
 
-"use strict";
-
 const { URL } = require("url");
 
 module.exports = {
