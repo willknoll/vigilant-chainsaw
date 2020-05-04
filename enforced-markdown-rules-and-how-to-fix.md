@@ -59,6 +59,7 @@ struck through have been disabled and will not cause falures.
 [MD046](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md046) code-block-style - Code block style  
 [MD047](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md047) ~~single-trailing-newline - Files should end with a single newline character~~  
 [MD048](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md048) code-fence-style - Code fence style  
+[MD100](https://github.com) no-safelinks - Safelink URLs are not allowed  
 
 See markdownlint's [Rules.md](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) file for more details.
 
