@@ -18,6 +18,18 @@ This changelog covers multiple projects with each change tagged with a correspod
 |fasttrack-uhf-updater|Updates the header and footer|UHF|
 |fasttrack-audience-parser|Ensured content is filtered by audience|AP|
 
+[Some safelink](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmicrosoft.sharepoint.com%2Fteams%2FFastTrackCollaborationPM%2FShared%2520Documents%2FFastTrack%2520Content%2520Management&data=02%7C01%7Cv-wiknol%40microsoft.com%7Cd01700b79e134185b88408d7ebc94455%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637237122579493042&sdata=EOKcpGSx9FP27zwtXxrViQt40iZoXS4v%2BNMs85yj9YY%3D&reserved=0)
+
+[Some non safelink](https://mysite.com)
+
+<br />
+
+---
+
+<br>
+
+<hr>
+
 > ## March 2020
 >
 > ### Added
