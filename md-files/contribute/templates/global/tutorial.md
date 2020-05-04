@@ -11,6 +11,8 @@ ms.author: #Required; microsoft alias of author; optional team alias.
 ft.audience: internal
 ---
 
+<!-- markdownlint-disable-file -->
+
 <!---Recommended: Remove all the comments in this template before you
 sign-off or merge to master.--->
 
