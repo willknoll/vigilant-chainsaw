@@ -22,7 +22,7 @@ identified in milestone one of the
 You only use tutorials to show the single best procedure for completing
 an approved top 10 customer task.
 --->
-<!-- markdownlint-disable -->
+
 # Tutorial: <do something with X> 
 <!---Required:
 Starts with "Tutorial: "
@@ -155,7 +155,7 @@ New-AzureRmContainerGroup -ResourceGroupName myResourceGroup -Name mycontainer -
 
 If you're not going to continue to use this application, delete
 <resources> with the following steps:
-<!-- markdownlint-restore -->
+
 1. From the left-hand menu...
 2. ...click Delete, type...and then click Delete
 
