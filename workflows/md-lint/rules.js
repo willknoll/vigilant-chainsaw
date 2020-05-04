@@ -22,7 +22,7 @@ module.exports = {
                     onError({
                         lineNumber: alink.lineNumber,
                         context: `(${href})`,
-                        range
+                        //range
                     })
 				}
 				else
