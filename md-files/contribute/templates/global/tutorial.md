@@ -176,4 +176,3 @@ format should direct the customer to the next article - and you can
 shorten the title in the boxes if the original one doesn’t fit.
 Do not use a "More info section" or a "Resources section" or a "See also
 section". --->
-<!-- markdownlint-disable-file -->
