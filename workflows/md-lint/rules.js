@@ -4,7 +4,7 @@
 
 const testSafeLink = new RegExp("safelinks\.protection");
 module.exports = {
-    names: ["MD100", "any-safelink-url"],
+    names: ["MD100", "no-safelinks"],
     description: "URLs that contain SafeLinks must be converted to the actual endpoint link",
     tags: ["links"],
     "function": (params, onError) => {
