@@ -31,7 +31,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: willknoll/fantastic-umbrella@v1.1
+      uses: willknoll/fantastic-umbrella@master
       with:
         who-to-greet: 'Bubba'
     # Use the output from the `hello` step 
