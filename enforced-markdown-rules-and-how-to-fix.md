@@ -23,9 +23,9 @@ struck through have been disabled and will not cause falures.
 [MD006](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md006) ~~ul-start-left - Consider starting bulleted lists at the beginning of the line~~  
 [MD007](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md007) ul-indent - Unordered list indentation  
 [MD009](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md009) ~~no-trailing-spaces - Trailing spaces~~  
-[MD010](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md010) no-hard-tabs - Hard tabs  
+[MD010](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md010) ~~no-hard-tabs - Hard tabs~~  
 [MD011](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md011) no-reversed-links - Reversed link syntax  
-[MD012](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md012) no-multiple-blanks - Multiple consecutive blank lines  
+[MD012](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md012) ~~no-multiple-blanks - Multiple consecutive blank lines~~  
 [MD013](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013) ~~line-length - Line length~~  
 [MD014](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md014) commands-show-output - Dollar signs used before commands without showing output  
 [MD018](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md018) no-missing-space-atx - No space after hash on atx style heading  
@@ -38,9 +38,9 @@ struck through have been disabled and will not cause falures.
 [MD025](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md025) ~~single-title/single-h1 - Multiple top level headings in the same document~~  
 [MD026](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md026) ~~no-trailing-punctuation - Trailing punctuation in heading~~  
 [MD027](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md027) no-multiple-space-blockquote - Multiple spaces after blockquote symbol  
-[MD028](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md028) no-blanks-blockquote - Blank line inside blockquote  
+[MD028](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md028) ~~no-blanks-blockquote - Blank line inside blockquote~~  
 [MD029](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md029) ol-prefix - Ordered list item prefix  
-[MD030](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md030) list-marker-space - Spaces after list markers  
+[MD030](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md030) ~~list-marker-space - Spaces after list markers~~  
 [MD031](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md031) ~~blanks-around-fences - Fenced code blocks should be surrounded by blank lines~~  
 [MD032](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md032) ~~blanks-around-lists - Lists should be surrounded by blank lines~~  
 [MD033](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md033) no-inline-html - Inline HTML  
@@ -59,6 +59,7 @@ struck through have been disabled and will not cause falures.
 [MD046](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md046) code-block-style - Code block style  
 [MD047](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md047) ~~single-trailing-newline - Files should end with a single newline character~~  
 [MD048](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md048) code-fence-style - Code fence style  
+[MD100](https://github.com) no-safelinks - Safelink URLs are not allowed  
 
 See markdownlint's [Rules.md](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) file for more details.
 
