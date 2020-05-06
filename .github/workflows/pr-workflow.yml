@@ -34,6 +34,6 @@ jobs:
       uses: willknoll/fantastic-umbrella@v1.1
       with:
         who-to-greet: 'Bubba Fresh'
-    # Use the output from the `hello` step
+    # Use the output from the `hello` step 
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
