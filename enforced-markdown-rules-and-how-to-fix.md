@@ -28,7 +28,9 @@ information about the rule violation as well as how to fix it.
 ## Rules
 
 The following is a list of all rules which are checked by Markdownlint. Items that are
-struck through have been disabled and will not cause falures.
+struck through have been disabled and will not cause falures. See markdownlint's [Rules.md](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) file for more details.
+
+### Built-in Rules
 
 [MD001](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md001) ~~heading-increment/header-increment - Heading levels should only increment by one level at a time~~  
 [MD002](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md002) first-heading-h1/first-header-h1 - First heading should be a top level heading  
@@ -74,9 +76,10 @@ struck through have been disabled and will not cause falures.
 [MD046](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md046) code-block-style - Code block style  
 [MD047](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md047) ~~single-trailing-newline - Files should end with a single newline character~~  
 [MD048](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md048) code-fence-style - Code fence style  
-[MD100](https://github.com) no-safelinks - Safelink URLs are not allowed  
 
-See markdownlint's [Rules.md](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) file for more details.
+### Custom Rules
+
+[MD100](https://github.com) no-safelinks - Safelink URLs are not allowed  
 
 ## Overriding Rules
 
