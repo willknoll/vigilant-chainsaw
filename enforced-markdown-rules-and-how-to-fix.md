@@ -10,6 +10,21 @@ content can be merged, aside from the following:
 * Inline `<br >` HTML tags are allowed within tables, however, they are still flagged as a failure.
 * When intended styling conflicts with a rule, exceptions will be made on a case by case basis.
 
+## Preventing Rule Violations
+
+Visual Studio Code has an extension available which will point out markdown rule issues while
+you work. Installing and enabling the Markdown Lint extension will help ensure content is properly formatted
+for merging into the Staging repository.
+
+![Markdown Lint Extension](markdownlint-extension.png "Markdown Lint Extension")
+
+![Markdown Lint Details](markdownlint-details.png "Markdown Lint Details")
+
+Rules are checked in real time as you work. HOvering over highlighted issues will present
+information about the rule violation as well as how to fix it.
+
+![Markdown Lint Error](markdownlint-error.png "Markdown Lint Error")
+
 ## Rules
 
 The following is a list of all rules which are checked by Markdownlint. Items that are
