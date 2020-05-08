@@ -1,0 +1,12 @@
+- name: FTCSME Bot User Guide
+  items:
+  - name: Overview
+    href: index.md
+  - name: Prerequisites
+    href: prerequisites.md
+  - name: Finding FTCSME Bot
+    href: finding-ftcsme-bot.md
+  - name: Chatting with FTCSME Bot
+    href: chatting-with-ftcsme-bot.md
+  - name: Feedback
+    href: feedback.md

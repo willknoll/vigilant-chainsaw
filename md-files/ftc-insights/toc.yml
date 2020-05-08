@@ -1,0 +1,16 @@
+- name: FTC Insights FAQ
+  href: index.md
+- name: The Goal of FTC Insights
+  href: goal.md
+- name: Is my feedback an FTC Insight?
+  href: valid.md
+- name: FTC Insights Submissions
+  href: submit.md
+- name: Participating Workloads
+  href: workloads.md
+- name: Status Definitions
+  href: status.md
+- name: Tiered Triage Structure
+  href: tiers.md
+
+        
