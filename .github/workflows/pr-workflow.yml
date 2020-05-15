@@ -6,7 +6,7 @@ on:
       - staging
 
 jobs:
-  build:
+  markdown_validation:
     # Job name is "Validate Markdown"
     name: Validate Markdown
     # This job runs on Linux
@@ -25,3 +25,51 @@ jobs:
       # This step prints an output (time) from the previous step's action.
       - name: Echo the markdown validation time
         run: echo 'The time was ${{ steps.markdown.outputs.time }}.'
+  dump_info:
+    runs-on: ubuntu-latest
+    name: Dump workflow info
+    steps:
+      - name: List files
+        run: |
+          URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/pulls/${{ github.event.pull_request.number }}/files?per_page=3000"
+          FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+          echo $FILES
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      - name: Dump job context
+        env:
+          JOB_CONTEXT: ${{ toJson(job) }}
+        run: echo "$JOB_CONTEXT"
+      - name: Dump steps context
+        env:
+          STEPS_CONTEXT: ${{ toJson(steps) }}
+        run: echo "$STEPS_CONTEXT"
+      - name: Dump runner context
+        env:
+          RUNNER_CONTEXT: ${{ toJson(runner) }}
+        run: echo "$RUNNER_CONTEXT"
+      - name: Dump strategy context
+        env:
+          STRATEGY_CONTEXT: ${{ toJson(strategy) }}
+        run: echo "$STRATEGY_CONTEXT"
+      - name: Dump matrix context
+        env:
+          MATRIX_CONTEXT: ${{ toJson(matrix) }}
+        run: echo "$MATRIX_CONTEXT"
+  test_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    env:
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    steps:
+    - name: Hello world action step
+      id: hello
+      uses: willknoll/fantastic-umbrella@master
+      with:
+        who-to-greet: 'Bubba'
+        token: ${{ secrets.GITHUB_TOKEN }}
+    # Use the output from the `hello` step 
+    - name: Get the output time
+      run: echo "The time was ${{ steps.hello.outputs.time }}"

@@ -10,10 +10,27 @@ content can be merged, aside from the following:
 * Inline `<br >` HTML tags are allowed within tables, however, they are still flagged as a failure.
 * When intended styling conflicts with a rule, exceptions will be made on a case by case basis.
 
+## Preventing Rule Violations
+
+Visual Studio Code has an extension available which will point out markdown rule issues while
+you work. Installing and enabling the Markdown Lint extension will help ensure content is properly formatted
+for merging into the Staging repository.
+
+![Markdown Lint Extension](markdownlint-extension.png "Markdown Lint Extension")
+
+![Markdown Lint Details](markdownlint-details.png "Markdown Lint Details")
+
+Rules are checked in real time as you work. HOvering over highlighted issues will present
+information about the rule violation as well as how to fix it.
+
+![Markdown Lint Error](markdownlint-error.png "Markdown Lint Error")
+
 ## Rules
 
 The following is a list of all rules which are checked by Markdownlint. Items that are
-struck through have been disabled and will not cause falures.
+struck through have been disabled and will not cause falures. See markdownlint's [Rules.md](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) file for more details.
+
+### Built-in Rules
 
 [MD001](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md001) ~~heading-increment/header-increment - Heading levels should only increment by one level at a time~~  
 [MD002](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md002) first-heading-h1/first-header-h1 - First heading should be a top level heading  
@@ -59,9 +76,10 @@ struck through have been disabled and will not cause falures.
 [MD046](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md046) code-block-style - Code block style  
 [MD047](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md047) ~~single-trailing-newline - Files should end with a single newline character~~  
 [MD048](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md048) code-fence-style - Code fence style  
-[MD100](https://github.com) no-safelinks - Safelink URLs are not allowed  
 
-See markdownlint's [Rules.md](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) file for more details.
+### Custom Rules
+
+[MD100](https://github.com) no-safelinks - Safelink URLs are not allowed  
 
 ## Overriding Rules
 
