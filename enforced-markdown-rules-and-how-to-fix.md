@@ -7,12 +7,12 @@ content is processed with Markdownlint. This tool reads all of the markdown
 code and checks it against various rules. All failures noted must be fixed before
 content can be merged, aside from the following:
 
-* Inline `<br >` HTML tags are allowed within tables, however, they are still flagged as a failure.
+* Inline `<br >` HTML tags are allowed within tables.
 * When intended styling conflicts with a rule, exceptions will be made on a case by case basis.
 
 ## Preventing Rule Violations
 
-Visual Studio Code has an extension available which will point out markdown rule issues while
+Visual Studio Code has an extension available that will point out markdown rule issues while
 you work. Installing and enabling the Markdown Lint extension will help ensure content is properly formatted
 for merging into the Staging repository.
 
@@ -27,7 +27,7 @@ information about the rule violation as well as how to fix it.
 
 ## Rules
 
-The following is a list of all rules which are checked by Markdownlint. Items that are
+The following is a list of all rules that are checked by Markdownlint. Items that are
 struck through have been disabled and will not cause falures. See markdownlint's [Rules.md](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md) file for more details.
 
 ### Built-in Rules
