@@ -68,6 +68,7 @@ jobs:
       id: hello
       uses: willknoll/fantastic-umbrella@master
       with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
         who-to-greet: 'Bubba'
         token: ${{ secrets.GITHUB_TOKEN }}
     # Use the output from the `hello` step 
