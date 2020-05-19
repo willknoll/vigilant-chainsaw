@@ -1,0 +1,10 @@
+- name: Sync Meeting Guidance
+  items: 
+  - name: Overview
+    href: index.md
+  - name: FTC-Led Solution Elements
+    href: ftc-led-solution-elements.md
+  - name: Agenda
+    href: agenda.md
+  - name: Sample Agenda
+    href: sample-agenda.md

@@ -1,0 +1,20 @@
+- name: Help Guides
+  items:
+  - name: Overview
+    href: index.md
+  - name: FTOP User Guide
+    href: ../ftop-user-guide/index.md
+  - name: Customer Health Data Quality Guide
+    href: ../customer-health-data-quality-guide/index.md
+  - name: FTC Help Guide
+    href: ../ftc-help-guide/index.md
+  - name: FTC Resource Request - Requester User Guide
+    href: ../ftc-resource-request-requester-user-guide/index.md
+  - name: FTC Resource Request - Approver User Guide
+    href: ../ftc-resource-request-approver-user-guide/index.md
+  - name: FTCSME Bot User Guide
+    href: ../ftcsme-bot-user-guide/index.md
+  - name: FTC Survey Process
+    href: ../ftc-survey-process-for-fy20/index.md
+  - name: FastTrack Reporting Power BI Access Guide
+    href: ../fasttrack-reporting-power-bi-access-guide/index.md
