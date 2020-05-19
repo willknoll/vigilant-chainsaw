@@ -20,7 +20,7 @@ for merging into the Staging repository.
 
 ![Markdown Lint Details](markdownlint-details.png "Markdown Lint Details")
 
-Rules are checked in real time as you work. HOvering over highlighted issues will present
+Rules are checked in real time as you work. Hovering over highlighted issues will present
 information about the rule violation as well as how to fix it.
 
 ![Markdown Lint Error](markdownlint-error.png "Markdown Lint Error")
