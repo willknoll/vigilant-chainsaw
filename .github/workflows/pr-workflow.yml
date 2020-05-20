@@ -69,6 +69,8 @@ jobs:
       uses: willknoll/fantastic-umbrella@master
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        filename-regex: "[a-z\d/\\-]+\.{1}[a-z]{1,4}"
+        fileext-regex: "(?!\.{1})(?:md|yml|jpg|png)/i"
         who-to-greet: 'Bubba'
         token: ${{ secrets.GITHUB_TOKEN }}
         configuration-path: "some/path"
