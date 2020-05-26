@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+
+# references to external resources
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: fasttrack-docs/fasttrack-docs
+      ref: refs/heads/master
+
+
+# trigger on PR into these branches
+trigger: none
+
+pr:
+- staging
+
+jobs:
+
+#
+# matrix out the build jobs for internal and partner
+#
+- job: Build_Pull_Request
+  pool:
+    vmImage: 'vs2017-win2016'
+  strategy:
+    maxParallel: 2
+    matrix:
+      Internal:
+        audience: 'internal'
+        header_id: 'FastTrackCustomHeader-internal'
+      Partner:
+        audience: 'partner'
+        header_id: 'FastTrackCustomHeader-partner'
+        
+  steps:
+
+  - task: DownloadPackage@1
+    inputs:
+      packageType: 'npm'
+      feed: '/08c8685d-1daa-48ed-b8bd-33faed0cf4c5'
+      view: '8b718781-6327-4413-a86c-ba7057b60909'
+      definition: '62446073-ed23-416b-8b63-a341822edab3'
+      version: '0.0.22'
+      downloadPath: '$(System.ArtifactsDirectory)'
+
+  #
+  # Invoke the PR build & deploy template
+  #
+  - template: content-pr-deploy.yml@templates
+    parameters:
+      audience: $(audience)
+      header_id: $(header_id)

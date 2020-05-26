@@ -1,0 +1,57 @@
+- name: Welcome
+  href: welcome/index.md
+  items:
+    - name: Onboarding
+      href: welcome/onboarding.md
+- name: COVID-19 Response
+  href: index.md
+  items:
+    - name: Incentives
+      href: covid-19-incentives.md
+    - name: Engagements and Reporting
+      href: covid-19-engagements.md
+    - name: Delivery and Guidance
+      href: covid-fasttrack-delivery-and-guidance.md
+    - name: Field Messaging and Guidance
+      href: covid-field-messaging-and-guidance.md
+    - name: Resources
+      href: covid-19-resources.md
+- name: FastTrack Playbook
+  href: fasttrack-playbook/english-playbook/index.md
+- name: Operations Guide
+  href: operations-guide/index.md
+- name: FTOP Partner User Guide
+  href: ftop-partner-user-guide/index.md
+- name: Training and Resources
+  href: training-and-resources/index.md
+  items:
+    - name: Building a Successful Practice
+      href: training-and-resources/partner-transformation.md
+    - name: Program Resources
+      href: training-and-resources/program-resources-new.md
+    - name: Universal Resources
+      href: training-and-resources/universal-resources.md
+    - name: M365 Resources
+      href: training-and-resources/m-365-resources.md
+    - name: Security, Compliance, Identity
+      href: training-and-resources/security-compliance-identity.md
+    - name: Teams
+      href: training-and-resources/teams.md
+- name: News and Events
+  href: news-and-events/index.md
+- name: Partner Success Library
+  href: training-and-resources/index.md
+  items:
+    - name: Submission Form
+      href: partner-site/partner-success-library-submission-form.md
+- name: FAQs
+  href: faqs/index.md
+  items:
+    - name: Onboarding
+      href: faqs/onboarding.md
+    - name: Build a successful practice
+      href: faqs/build-a-successful-practice.md
+    - name: FastTrack
+      href: faqs/fasttrack.md
+- name: Covid-19 Response (Version One)
+  href: frp-covid-19-response.md

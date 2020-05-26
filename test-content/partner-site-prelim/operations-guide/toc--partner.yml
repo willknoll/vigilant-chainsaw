@@ -1,0 +1,108 @@
+- name: Operations Guide
+  href: index.md
+- name: Program Introduction
+  href: program-introduction.md
+  items:
+    - name: Partner Success Team
+      href: partner-success-team.md
+    - name: Partner Program Participation
+      href: partner-program-participation.md
+- name: FastTrack Method and Readiness
+  href: fastTrack-method-readiness.md
+- name: Incentive Details
+  href: incentive-details.md
+- name: Partner Communication Methods
+  href: partner-communication-methods.md
+- name: Guidelines for Handling Personally Identifiable Customer Information
+  href: gdpr.md
+- name: Manage Required Customer Data in FTOP
+  href: manage-required-data-in-ftop.md
+- name: Active Use Measurement
+  href: active-use-measurement.md
+- name: L1 L2 L3 - Customer Intent
+  href: l1l2l3-homepage-list.md
+  items: 
+    - name: Status Unknown 
+      items: 
+        - name: Customer Unresponsive
+          href: l1l2l3-status-unknown-customer-unresponsive.md
+        - name: New Subscription or Workload
+          href: l1l2l3-status-unknown-new-subscription-or-workload.md
+    - name: In Progress
+      items: 
+        - name: Technical Onboarding and Deployment
+          href: l1l2l3-in-progress-technical-onboarding-deployment.md
+        - name: Migration
+          href: l1l2l3-in-progress-migration.md
+        - name: Solution or User Adoption
+          href: l1l2l3-in-progress-solution-or-user-adoption.md
+    - name: No Intent
+      href: l1l2l3-no-intent.md
+      items: 
+        - name: Using Competitive Solution
+          href: l1l2l3-no-intent-using-competitive-solution.md
+        - name: Using Microsoft On-Premises Solution
+          href: l1l2l3-no-intent-using-microsoft-on-premises-solution.md
+        - name: Executive Sponsorship
+          href: l1l2l3-no-intent-executive-sponsorship.md
+    - name: Blocked
+      href: l1l2l3-blocked.md 
+      items: 
+        - name: Customer IT Infrastructure and Remediation
+          href: l1l2l3-blocked-customer-it-infrastructure-remediation.md
+        - name: IT Change Management and Resourcing
+          href: l1l2l3-blocked-it-change-management-resourcing.md
+        - name: Legal/Regulatory
+          href: l1l2l3-blocked-legal-regulatory.md
+        - name: Security/Privacy (Non-Product/Feature)
+          href: l1l2l3-blocked-security-privacy-non-product-feature.md
+        - name: Adoption Readiness
+          href: l1l2l3-blocked-adoption-readiness.md
+        - name: Product/Feature Capability
+          href: l1l2l3-blocked-product-feature-capability.md
+        - name: Service Reliability
+          href: l1l2l3-blocked-service-reliability.md
+        - name: App Compatibility
+          href: l1l2l3-blocked-app-compatibility.md
+        - name: Partner Engagement
+          href: l1l2l3-blocked-partner-engagement.md
+        - name: Billing Licensing and Subscription
+          href: l1l2l3-blocked-billing-licensing-subscription.md
+- name: Migration Benefit Service 
+  href: migration-benefit-service.md
+  items: 
+    - name: FRP Migration Guidance and FTOP Use
+      href: frp-migration-guidance-and-ftop-use.md
+    - name: Migration Roles and Responsibilities
+      href: migration-roles-and-responsibilities.md
+    - name: Migration Process Description
+      href: migration-process-description.md
+    - name: Paused and Offboarding Migration Projects
+      href: paused-and-offboarding-migration-projects.md
+- name: Payment and Submission Processes 
+  href: payment-dispute-reconciliation.md
+  items:
+    - name: Dispute and Submission Guide
+      href: dispute-submission-overview.md
+      items:
+        - name: Registration and Login
+          href: registration-and-login.md
+        - name: FRP Dispute Submission
+          href: submit-payment-dispute.md
+          items:
+            - name: Line Number Search
+              href: dispute-submission-line-number-search.md
+            - name: Tenant ID Search 
+              href: tenant-id-search.md
+            - name: Submit A New One
+              href: submit-a-new-one.md              
+            - name: Submissions Errors
+              href: submission-errors.md
+            - name: Dispute Submission Status and Challenging Disputes
+              href: dispute-submission-status-and-challenging.md
+        - name: OSU-M365 Incentive Dispute
+          href: osu-m365-incentive.md
+- name: Payment, Dispute, and Reconciliation Processes 
+  href: payment-dispute-reconciliation.md
+- name: Home
+  href: ../welcome/index.md

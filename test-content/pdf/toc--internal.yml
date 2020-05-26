@@ -1,0 +1,14 @@
+- name: Contributor Guide
+  href: ../contribute/toc.yml
+- name: FastTrack Playbook
+  href: ../playbook/toc.yml
+- name: FastTrack Reporting Power BI Access Guide
+  href: ../fasttrack-reporting-power-bi-access-guide/toc.yml
+- name: FTC Help Guide
+  href: ../ftc-help-guide/toc.yml
+- name: FTOP User Guide
+  href: ../ftop-user-guide/toc.yml
+- name: Role Guide
+  href: ../role-guide/toc.yml
+- name: SfBO to Teams Transition Roles and Responsibilities
+  href: ../sfbo-to-teams-transition-roles-and-responsibilities/toc.yml

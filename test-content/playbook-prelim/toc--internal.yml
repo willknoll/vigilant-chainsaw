@@ -1,0 +1,346 @@
+- name: FastTrack Playbook
+  href: index.md
+- name: Onboarding Motions
+  href: motions-onboarding.md
+  items:
+    - name: Customer Health Motion
+      href: motion-customer-health.md
+      items:
+        - name: Governance
+          href: motion-customer-health-governance.md
+          items:
+          - name: Good Governance
+            href: motion-customer-health-good-governance.md
+        - name: Recurring Activities
+          href: motion-customer-health-activities.md
+        - name: Forecasting
+          href: motion-customer-health-forecasting.md
+        - name: Partnering with FRP
+          href: motion-customer-health-partner.md
+    - name: RFA Motion
+      href: motion-rfa.md
+      items: 
+        - name: RFA Validation Process
+          href: rfa-overview.md
+          items:
+            - name: Assignment Business Rules
+              href: rfa-assignment-business-rules.md
+            - name: RFA Process Guide
+              href: rfa-process-guide.md
+              items:
+                - name: Customer Health RFA Process Guide
+                  href: rfa-customer-health-process-guide.md
+                - name: Windows 10 and Edge RFA Process Guide
+                  href: rfa-windows-10-and-edge-process-guide.md
+                - name: Teams First Pitch
+                  href: rfa-teams-first-pitch.md
+                - name: FPM Escalation Process
+                  href: rfa-fpm-escalation-process.md
+                - name: FTOP Assignment Scenarios Guide
+                  href: rfa-ftop-assignment-scenarios-guide.md
+            - name: FRP Referral Guide
+              href: rfa-frp-referral-guide.md
+            - name: Engagement Scenario Escalation Process
+              href: rfa-send-engagement-scenario-escalation.md
+            - name: RFA Eligibility Guide
+              href: rfa-eligibility.md
+            - name: FTC Leads Contact List and Queue Information
+              href: rfa-ftc-leads-contact-list-and-queue-information.md
+            - name: Dynamics 365 and Azure Requests for Assistance
+              href: rfa-dynamics-365-and-azure-rfas.md
+            - name: GDPR Compliance
+              href: rfa-gdpr-compliance.md
+    - name: Targeting Motion
+      href: motion-targeted.md
+      items: 
+        - name: Waves
+          href: waves.md
+- name: Approaches
+  href: approaches.md
+  items:
+    - name: Get Modern
+      href: approach-get-modern.md
+      items:
+        - name: FastTrack Center Engagement
+          href: approach-get-modern-ftc.md
+        - name: GM FTA Engagement
+          href: approach-get-modern-gm-fta.md
+        - name: OPP O365 Standalone
+          href: approach-opp-365-standalone.md
+        - name: FastTrack Ready Partner
+          href: approach-get-modern-ftc-ready-partner.md
+    - name: Security and Compliance
+      href: approach-security-compliance.md
+    - name: COVID-19 Response Playbook
+      href: covid-response.md
+      items: 
+        - name: Field Messaging and Guidance 
+          href: covid-field-messaging-and-guidance.md
+        - name: FastTrack Architect Guidance
+          href: covid-fasttrack-architect.md
+        - name: FastTrack Delivery Guidance
+          href: covid-fasttrack-center.md
+        - name: FRP Guidance
+          href: covid-fasttrack-ready-partner.md
+        - name: Resources
+          href: covid-resources.md
+- name: Lifecycle Phases
+  href: lifecycle-phases-landing.md
+  items:
+    - name: Presales Phase
+      href: phase-presales.md          
+      items:
+      - name: Request FastTrack Architect
+        href: presales-request-fasttrack-architect.md
+      - name: Assign FastTrack Architect
+        href: presales-assign-fasttrack-architect.md
+      - name: Discovery Workshop
+        href: presales-discovery-workshop.md
+      - name: Growth Engagement
+        href: presales-growth-engagement.md
+      - name: End Customer Incentive Funds / Digital WinRoom Request Review
+        href: presales-ecif-dwr.md
+      - name: Strategic Customer Engagement
+        href: presales-strategic-customer-engagement.md
+      - name: Migration Exceptions
+        href: presales-migration-exceptions.md
+    - name: Validation Phase
+      href: phase-validation.md        
+      items:
+        - name: Qualify Request for Assistance (RFA)
+          href: validation-qualify-rfa.md        
+    - name: Engagement Phase
+      href: phase-engagement.md
+      items:
+        - name: Tenant Research
+          href: engagement-tenant-research.md
+        - name: Customer Engagement
+          href: engagement-customer-engagement.md
+        - name: Assign to Delivery
+          href: engagement-assign-to-delivery.md
+        - name: Re-Engagement Team Disengaged
+          href: engagement-re-engagement-team-disengaged.md
+    - name: Assignment Phase
+      href: phase-assignment.md
+      items:
+        - name: Determine Onboarding Channel Assignment
+          href: assignment-determine-onboarding-channel-assignment.md
+        - name: Assign Delivery Resources
+          href: assignment-assign-delivery-resources.md
+    - name: Initiate Phase
+      href: phase-initiate.md
+      items:
+        - name: Conduct Customer Kickoff
+          href: initiate-conduct-customer-kickoff.md
+        - name: Deploy Securely
+          href: initiate-deploy-securely.md
+        - name: Land the Benefit
+          href: initiate-land-the-benefit.md
+        - name: Setup Governance Review Meeting Cadence
+          href: initiate-review-meeting-cadence.md  
+    - name: Assess Phase
+      href: phase-assess.md
+      items:
+        - name: Conduct Technical Assessment
+          href: assess-conduct-technical-assessment.md
+        - name: Conduct Security and Compliance Workshops
+          href: assess-conduct-security-and-compliance-workshops.md
+        - name: Conduct Services Workshops
+          href: assess-conduct-services-workshops.md
+        - name: Conduct Adoption and Change Management Conversation
+          href: assess-conduct-adoption-and-change-management-conversation.md
+    - name: Remediate Phase
+      href: phase-remediate.md
+      items:
+        - name: Address Technical Gaps
+          href: remediate-address-technical-gaps.md
+    - name: Enable Phase
+      href: phase-enable.md
+      items:
+        - name: Enable Services
+          href: enable-enable-services.md
+        - name: Conduct Engagement Completion Discussion (enablement)
+          href: enable-conduct-engagement-completion-discussion.md
+    - name: Migrate Phase
+      href: phase-migrate.md
+      items:
+        - name: Migration
+          href: migrate-migration.md
+        - name: Conduct Engagement Completion Discussion (migration)
+          href: migrate-conduct-engagement-completion-discussion.md
+- name: Resources
+  href: resources-landing.md
+  items:
+    - name: Business Value Discussions (BVD)
+      href: resources-bvd.md
+    - name: Services Workshops
+      href: resources-services-workshops.md
+    - name: Subject Matter Expert Requests
+      href: resources-fasttrack-subject-matter-experts-resources-guidance.md
+- name: Guidance
+  href: status-guidance.md
+  items:
+    - name: FTOP Notes Guidance
+      href: guidance-ftop-notes-guidance.md
+      items:
+        - name: FM Notes
+          href: guidance-fm-notes.md
+          items:
+            - name: Engagement Management Notes
+              href: guidance-fm-engagement-management-notes.md
+            - name: Enterprise Status Notes 
+              href: guidance-enterprise-status-notes.md   
+            - name: Service Intent Notes 
+              href: status-guidance-service-intent-notes.md
+        - name: FE/SME Notes
+          href: guidance-fe-sme-notes.md
+          items:
+            - name: Technical Enablement Notes
+              href: guidance-technical-enablement-notes.md
+            - name: Environment Notes
+              href: guidance-environment-notes.md
+        - name: FTA Notes
+          href: guidance-fta-notes.md
+    - name: Business Reason
+      href: status-guidance-business-reason.md
+    - name: Engagement Start Date
+      href: status-guidance-engagement-start-date.md
+      items:
+       - name: Engagement Start Date FAQ
+         href: status-guidance-engagement-start-date-faq.md
+    - name: Override Entitlement
+      href: status-guidance-override-entitlement.md
+    - name: Split Entitlement
+      href: status-guidance-split-entitlement.md
+    - name: Customer Assisting Time
+      href: status-guidance-customer-assisting-time.md
+- name: L1 L2 L3
+  href: l1l2l3-homepage-list.md
+  items: 
+    - name: Status Unknown 
+      items: 
+        - name: Customer Unresponsive
+          href: l1l2l3-status-unknown-customer-unresponsive.md
+        - name: New Subscription or Workload
+          href: l1l2l3-status-unknown-new-subscription-or-workload.md
+    - name: In Progress
+      items: 
+        - name: Technical Onboarding and Deployment
+          href: l1l2l3-in-progress-technical-onboarding-deployment.md
+        - name: Migration
+          href: l1l2l3-in-progress-migration.md
+        - name: Solution or User Adoption
+          href: l1l2l3-in-progress-solution-or-user-adoption.md
+    - name: No Intent
+      href: l1l2l3-no-intent.md
+      items: 
+        - name: Using Competitive Solution
+          href: l1l2l3-no-intent-using-competitive-solution.md
+        - name: Using Microsoft On-Premises Solution
+          href: l1l2l3-no-intent-using-microsoft-on-premises-solution.md
+          items:
+            - name: Commitment to On-Premises Investment or Third Party Hosting
+              href: l1l2l3-no-intent-using-microsoft-on-premises-solution-commitment-to-on-premises-investment-or-third-party.md
+            - name: Customer Decision to Maintain Control Over Service
+              href: l1l2l3-no-intent-using-microsoft-on-premises-solution-customer-decision-to-maintain-control-over-service.md
+            - name: Purchased O365 Licenses but Using On-Premises Rights
+              href: l1l2l3-no-intent-using-microsoft-on-premises-solution-purchased-o365-licenses-but-using-on-premises-right.md
+            - name: Purchased as Part of a Larger Suite
+              href: l1l2l3-no-intent-using-microsoft-on-premises-solution-purchased-as-part-of-a-larger-suite.md
+        - name: Executive Sponsorship
+          href: l1l2l3-no-intent-executive-sponsorship.md
+          items:
+            - name: No BDM/Sponsor Identified
+              href: l1l2l3-no-intent-executive-sponsorship-no-bdm-sponsor-identified.md
+            - name: No Clear Business Drivers
+              href: l1l2l3-no-intent-executive-sponsorship-no-clear-business-drivers.md
+    - name: Blocked
+      href: l1l2l3-blocked.md 
+      items: 
+        - name: Customer IT Infrastructure and Remediation
+          href: l1l2l3-blocked-customer-it-infrastructure-remediation.md
+          items:
+            - name: Desktop/Devices
+              href: l1l2l3-blocked-customer-it-infrastructure-remediation-desktop-devices.md
+            - name: Hardware
+              href: l1l2l3-blocked-customer-it-infrastructure-remediation-hardware.md
+            - name: Network
+              href: l1l2l3-blocked-customer-it-infrastructure-remediation-network.md
+            - name: Identity
+              href: l1l2l3-blocked-customer-it-infrastructure-remediation-Identity.md
+        - name: IT Change Management and Resourcing
+          href: l1l2l3-blocked-it-change-management-resourcing.md
+          items:
+            - name: Budget Agreed But Not Available
+              href: l1l2l3-blocked-it-change-management-resourcing-budget-agreed-but-not-available.md
+            - name: IT Staff Training Required
+              href: l1l2l3-blocked-it-change-management-resourcing-it-staff-training-required.md
+            - name: Updates Processes or Infrastructure
+              href: l1l2l3-blocked-it-change-management-resourcing-updates-processes-or-infrastructure.md
+        - name: Legal/Regulatory
+          href: l1l2l3-blocked-legal-regulatory.md
+          items:
+            - name: Legal
+              href: l1l2l3-blocked-legal-regulatory-legal.md
+        - name: Security/Privacy (Non-Product/Feature)
+          href: l1l2l3-blocked-security-privacy-non-product-feature.md
+          items:
+            - name: Security
+              href: l1l2l3-blocked-security-privacy-non-product-feature-security.md
+            - name: Trust
+              href: l1l2l3-blocked-security-privacy-non-product-feature-trust.md
+        - name: Adoption Readiness
+          href: l1l2l3-blocked-adoption-readiness.md
+        - name: Product/Feature Capability
+          href: l1l2l3-blocked-product-feature-capability.md
+        - name: Service Reliability
+          href: l1l2l3-blocked-service-reliability.md
+        - name: App Compatibility
+          href: l1l2l3-blocked-app-compatibility.md
+        - name: Partner Engagement
+          href: l1l2l3-blocked-partner-engagement.md
+          items:
+            - name: Partner Unresponsive
+              href: l1l2l3-blocked-partner-engagement-partner-unresponsive.md
+        - name: Billing Licensing and Subscription
+          href: l1l2l3-blocked-billing-licensing-subscription.md
+          items:
+            - name: Addition of Seats
+              href: l1l2l3-blocked-billing-licensing-subscription-addition-of-seats.md
+            - name: Incorrect SKU
+              href: l1l2l3-blocked-billing-licensing-subscription-incorrect-sku.md
+            - name: Wrong Tenant
+              href: l1l2l3-blocked-billing-licensing-subscription-wrong-tenant.md
+    - name: Duplicate/Invalid
+      href: l1l2l3-duplicate-invalid.md
+- name: I Need Help With...
+  href: i-need-help.md
+  items: 
+    - name: Customer
+      href: i-need-help-customer-help.md
+    - name: FastTrack
+      href: i-need-help-fasttrack-help.md
+    - name: Security/Privacy
+      href: i-need-help-security-privacy-help.md
+    - name: Field Team
+      href: i-need-help-field-team-help.md
+    - name: Partner
+      href: i-need-help-partner-help.md
+- name: Playbook Task Reference List
+  href: resources-tasks.md
+- name: Playbook Change Log
+  href: change-log.md
+  items:
+    - name: May 2020
+      href: change-log-may-2020.md
+    - name: April 2020
+      href: change-log-april-2020.md
+    - name: March 2020
+      href: change-log-march-2020.md
+    - name: February 2020
+      href: change-log-february-2020.md
+    - name: January 2020
+      href: change-log-january-2020.md
+    - name: December 2019
+      href: change-log-december-2019.md
+      

@@ -1,0 +1,56 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/**.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "**/archive/**",
+          "contribute/templates/global/*.md",
+          "**/ftdocs_site/**",
+          "**/_tools/**",
+          "**/test-data/**",
+          "azure-pipelines.yml",
+          "azure-pipelines-pr.yml",
+          "**/pdf/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.pdf",
+          "**/*.pptx",
+          "favicon.ico"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "_disableBreadcrumb": "true",
+      "_description": "true",
+      "breadcrumb_path": "~/breadcrumb/toc.yml",
+      "feedback_system": "None"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "ftdocs_site",
+    "markdownEngineName": "markdig"
+  }
+}

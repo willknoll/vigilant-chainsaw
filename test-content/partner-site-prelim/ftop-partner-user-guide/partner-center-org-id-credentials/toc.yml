@@ -1,0 +1,7 @@
+- name: Partner Center Org ID Credentials
+  href: index.md
+  items:
+    - name: Establishing Partner Center Credentials
+      href: establishing-partner-center-credentials.md
+    - name: Appendix
+      href: appendix.md

@@ -1,0 +1,17 @@
+- name: Docs
+  href: /
+  homepage: /
+  items:
+  - name: Docs and OPS Help
+    href: /help/
+    homepage: /help/
+    items:
+    - name: Contributor Guide
+      href: /help/contribute/
+      homepage: /help/contribute
+    - name: Style Guide
+      href: /help/style/
+      homepage: /help/style
+    - name: Onboarding Guide
+      href: /help/onboard/
+      homepage: /help/onboard
