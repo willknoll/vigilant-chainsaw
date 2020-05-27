@@ -70,3 +70,4 @@ jobs:
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         configuration-path: "some/path"
+        file-size-limit: "1048576" # 1MB
