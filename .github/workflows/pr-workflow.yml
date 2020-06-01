@@ -15,16 +15,29 @@ jobs:
       - uses: actions/checkout@v1
       #- uses: ./
       - name: markdownlint-cli
-        uses: nosborn/github-action-markdown-cli@v1.1.1  
+        uses: nosborn/github-action-markdown-cli@v1.1.1
         with:
           files: .
           config_file: "workflows/md-lint/config-relaxed.json"
-          ignore_files: "examples/ignore/*"
+          ignore_files: "contribute/*"
           rules: "workflows/md-lint/rules.js"
         id: markdown
       # This step prints an output (time) from the previous step's action.
       - name: Echo the markdown validation time
         run: echo 'The time was ${{ steps.markdown.outputs.time }}.'
+  run_filechecks:
+    runs-on: ubuntu-latest
+    name: Validate Files
+    env:
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    steps:
+    - name: Check file names and types
+      id: filevalidate
+      uses: willknoll/fantastic-umbrella@master
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        file-size-limit: "1048576" # 1MB
+        configuration-path: "some/path"
   dump_info:
     runs-on: ubuntu-latest
     name: Dump workflow info
@@ -58,16 +71,3 @@ jobs:
         env:
           MATRIX_CONTEXT: ${{ toJson(matrix) }}
         run: echo "$MATRIX_CONTEXT"
-  test_job:
-    runs-on: ubuntu-latest
-    name: Validate Files
-    env:
-      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-    steps:
-    - name: Check file names and types
-      id: filevalidate
-      uses: willknoll/fantastic-umbrella@master
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        configuration-path: "some/path"
-        file-size-limit: "1048576" # 1MB
